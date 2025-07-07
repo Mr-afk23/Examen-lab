@@ -1,0 +1,34 @@
+.seccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.divs{
+    border: 1px solid black;
+    height: 82px;
+    width: 95%;
+    margin-left: 10px;
+    border-left: 3px solid black;
+}
+
+@media (max-width: 480px) {
+    .seccion {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 20px;
+    }
+}
+
+.divs h3{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.divs p{
+    margin-top: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,14 @@
+.header{
+display: flex;
+justify-content: center;
+border: 1px solid black;
+height: 5rem;
+width: 100%;
+background-color: black;
+}
+
+.header h2{
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+}
