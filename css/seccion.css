@@ -10,6 +10,7 @@
     border: 1px solid black;
     height: 82px;
     width: 95%;
+    margin-top: 20px;
     margin-left: 10px;
     border-left: 3px solid black;
 }
@@ -18,7 +19,7 @@
     .seccion {
         grid-template-columns: 1fr;
         padding: 10px;
-        gap: 20px;
+        gap: 1px;
     }
 }
 
